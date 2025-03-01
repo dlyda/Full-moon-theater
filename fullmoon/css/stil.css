@@ -1,0 +1,398 @@
+@charset "utf-8";
+*[
+	background-color:red;
+	width:100%;
+	height:5000px;
+	margin:0;
+	text-align:center;
+	
+	]
+	#baslik1{
+	
+	background-color:#000000;
+	width:0px auto;
+	height:200px;
+	margin:0;
+	text-align:center;
+	
+	
+	}
+#baslik2{
+	
+	background-color:black;
+	width:0px auto;
+	height:923px;
+	
+	text-align:center;
+	
+	}
+	#baslik2 img{
+		margin-right:270px;
+		}
+	#menu{
+
+		width:100%;
+		height:0px auto;
+		float:left;
+		margin-right:250px;
+		text-align:center;
+	}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6C1E1F;
+}
+
+#menu li {
+    display:inline-block;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color:#6C1E1F;
+}
+
+#menu li a:hover{
+    background-color:#9F2A2B; 
+}
+
+#menu ul li ul {
+    background-color:#9F2A2B;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+#menu ul li:hover ul{
+    display:block;
+}
+#menu li ul li {
+    display:block; 
+}
+
+
+#content{
+	width:100%;
+	height:0 auto;
+	background-color:#000000;
+	float:left;
+		
+	}
+
+.yazikutu{
+	width:800px;
+	height:0 auto;
+	float:left;
+	background-color:black;
+	border:3px solid #FFFFFF;
+	margin-left:40px;
+	margin-bottom:30px;
+		
+	}	
+.yazi{
+	width:300px;
+	height:0 auto;
+	float:left;
+	background-color:black;
+	color:white;
+	
+		
+	}	
+	.yazikutu2{
+	width:800px;
+	height:0 auto;
+	float:right;
+	background-color:black;
+	margin-bottom:30px;
+	border:3px solid #FFFFFF;
+
+
+	
+	}	
+	.minikyazi{
+		width:100%;
+		height:80px;
+		background-color:#6C1E1F;
+		float:left;
+		text-align:center;
+		color:#FFFFFF;
+	
+		
+		}
+		
+#footer{
+	width:100%;
+	height:500px;
+	background-color: #000000;
+	float:left;
+	margin-top:-1px;
+	}
+#hesap{
+	width:50%;
+	height:500px;
+	background-color:#000000;
+	float:right;
+	
+	}
+.hesapresim{
+	float:left;
+width:0 auto;
+height:100px;
+
+	margin-left:600px;
+	}
+	.footeryazi{
+		width:100%;
+	height:100px;
+	background-color: #000000;
+	margin-bottom:700px;
+	text-align:center;
+	color:#FFFFFF;
+	float:left;
+		}
+		#harita{
+			width:840px;
+			height:0 auto;
+			
+		text-align:center;
+		margin-left:400px;
+			}
+.sol{
+	width:50%;
+	height:0 auto;
+	
+	margin-top:100px;
+	
+	}
+.solkutu{
+	
+	width:740px;
+	height:1600px;
+	background-color:#000000;
+	border:10px solid #FFFFFF;
+	
+	}
+.solkutuyazirenk{
+	color:#FFFFFF;
+	font-size: 20px;;
+	text-align:center;
+	padding:5px;
+	
+	}
+	.solkutu img{
+		margin-bottom:150px;
+		margin-top:20px;
+		}
+
+	
+.sağkutu{
+	width:50%;
+	height:0 auto;
+	float:right;
+margin-top:-1620px;
+	
+	
+	}
+	.sağkutu2{
+	width:100%;
+	height:300px;
+	float:left;
+	background-color:#6C1E1F;
+	border:10px solid #FFFFFF;
+	margin-bottom:113px;
+	margin-top:0;
+	text-align:center;
+	margin-left:-15px;
+	}
+	#kayit{
+		width:50%;
+	
+		margin:0 auto;
+		
+		
+		
+		}
+	.kayitalt{
+		width:50%;
+		height:170px;
+		float:left;
+		margin:0 auto;
+		
+		margin-left:460px;
+		margin-top:10px;
+		}	
+		#contentkayit{
+			width:100%;
+			height:900px;
+		background-color:#000000;background-image:url(img/sahne2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+			background-position:center;
+			}
+	
+			#footerkayit{
+	width:100%;
+	height:500px;
+	background-color: #000000;
+	float:left;
+	
+	
+	}
+	.minikyazikayit{
+		width:100%;
+		height:0 auto;
+		background-color:#6C1E1F;
+		
+		
+		float:left;
+		text-align:center;
+		color:#FFFFFF;
+		}
+		
+
+	
+	
+	
+
+#kayit img{
+	margin-left:230px;
+	}
+	.kayitalt img{
+		margin-left:20px;
+		}
+.buton{
+background-color:#FFFFFF;
+	width:100px;
+	height:50px;
+		font-weight:bold;
+		color:#000000;
+		
+		opacity:0.8;
+	}
+	table{
+	
+		
+	
+		}
+		.tableyaz{
+			color:#B31D20;
+			width:300px;
+			
+			}
+.FOTOĞRAF{
+	text-align:center;
+	height:120px;
+	line-height:120px;
+	width:120px;
+	border:1px solid;
+	
+	
+	}
+.tablewidth{
+	width:200px;
+	
+		}
+#contentdrama{
+	width:100%;
+	height:0 auto;
+	background-color:#000000;
+	float:left;
+		text-align:center;
+	}
+.orta{
+	width:400px;
+height:1000px;
+	background-color:#FFFFFF;
+	text-align:center;
+float:left;
+	}
+	.orta2{
+		width:800px;
+	height:0 auto;
+	background-color:#000000;
+	text-align:center;
+float:left;
+		}
+.gorsel{
+	width:100px;
+	height:100px;
+	}
+	.gorselduzen{
+		margin-top:70px;
+		margin-bottom:5px;
+		float:left;
+		}
+		.gorselduzen2{
+		margin-top:330px;
+		margin-right:120px;
+		margin-bottom:5px;
+		float:right;
+		}
+		.gorselduzensol{
+		margin-top:10px;
+		margin-bottom:5px;
+		float:right;
+		}
+	#ortaust{
+		width:720px;
+		height:0 auto;
+		margin-left:40px;
+		
+		color:#FFFFFF;
+		}
+		#hocaresim{
+			width:200px;
+			height:200px;
+			
+			margin-left:290px;
+
+			margin-top:10px;
+			
+			}
+			#ortaust p{
+				line-height:30px;
+				}
+			.ortaustyazirenk{color:#9F2A2B; padding: 10px;}
+		.yaz{color: white;}
+p{
+color: black;
+}
+			.yenicss{
+				width:750px;
+				height:0 auto;
+				border:10px solid white ;
+				background-color: #6C1E1F;
+				float: left;
+				margin-right: 10px;
+				margin-top: 40px;;
+			}
+			.bb
+			{
+				display: block;
+				text-align: center;
+				font-size: 48px;
+				color: #ffffff;
+				text-shadow: 0px 0px 20px #000000;
+				font-family: "Trebuchet MS";
+				margin-right:230px;
+			}
+			.iborder{
+border: 10px solid white;
+			}
+			.dramadiv{
+
+				border: 10px solid black; 
+
+padding: 10px;
+text-align: center;
+margin-left: 100px;
+background-color: black;
+float: left;
+
+			}
